@@ -18,3 +18,18 @@ l2.remove(max(l2))
 print(max(l2))
 
 
+#--------------------------------------------------------------------
+
+arr = [10, 45, 75, 22, 30]
+
+nth_Max=3
+
+for i in range(1,nth_Max+1):
+
+    if i==nth_Max:
+        print("The nth{} Maximum element of the list is {}".format(i,max(arr)))
+        break
+    else:
+        arr.remove(max(arr))
+
+

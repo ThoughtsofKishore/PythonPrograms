@@ -20,4 +20,4 @@ str1 = "welcome"
 
 
 #Approach4 Using Join & Count
-print("X".join(str1).count("X") + 1)
+print("X".join(str1).count("X")+1)
